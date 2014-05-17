@@ -1,0 +1,19 @@
+package $(CSLB)
+{
+	import net.flashpunk.World;
+	
+	/**
+	$(CBI)* ...
+	$(CBI)* @author $(DefaultUser)
+	$(CBI)*/
+	public class MainWorld extends World 
+	{
+		
+		public function MainWorld() 
+		{
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,1 @@
+Empty AS3 project, with lib, enities and worlds folders, FlashPunk SWC included and initialization.

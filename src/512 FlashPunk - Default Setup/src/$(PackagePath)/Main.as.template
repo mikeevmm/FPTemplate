@@ -1,0 +1,29 @@
+package $(CSLB) {
+	
+	import net.flashpunk.Engine;
+	import net.flashpunk.FP;
+	import flash.display.StageAlign;
+	import flash.display.StageScaleMode
+	import Worlds.MainWorld;
+	
+	/**
+	$(CBI)* ...
+	$(CBI)* @author $(DefaultUser)
+	$(CBI)*/
+	public class $(EntryPoint) $(CSLB) extends Engine{
+	{
+		
+		public function Main():void 
+		{
+			super(800,600);
+		}
+		
+		override public function init():void {
+			FP.stage.align = StageAlign.TOP;
+			FP.stage.scaleMode = StageScaleMode.SHOW_ALL;
+			FP.world = new MainWorld();
+		}
+		
+	}
+	
+}
