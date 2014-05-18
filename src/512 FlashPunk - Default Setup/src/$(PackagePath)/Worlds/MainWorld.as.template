@@ -1,4 +1,4 @@
-package $(CSLB)
+package Worlds
 {
 	import net.flashpunk.World;
 	

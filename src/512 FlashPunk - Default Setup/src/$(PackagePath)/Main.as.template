@@ -1,4 +1,4 @@
-package $(CSLB) {
+package $(PackageName)$(CSLB){
 	
 	import net.flashpunk.Engine;
 	import net.flashpunk.FP;
@@ -10,7 +10,7 @@ package $(CSLB) {
 	$(CBI)* ...
 	$(CBI)* @author $(DefaultUser)
 	$(CBI)*/
-	public class $(EntryPoint) $(CSLB) extends Engine{
+	public class Main extends Engine
 	{
 		
 		public function Main():void 
