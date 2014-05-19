@@ -1,1 +1,1 @@
-Empty AS3 project, with lib, enities and worlds folders, FlashPunk SWC included and initialization.
+Basic FlashPunk 1.7.2 project with packages for entities and worlds.
